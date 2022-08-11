@@ -1,0 +1,148 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Poppins";
+  background: #f5f2f0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.left-section {
+  background: #f5f2f0;
+}
+
+.nav-bar .list-items {
+  display: flex;
+  list-style-type: none;
+  margin-left: 350px;
+  column-gap: 80px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.middle-section {
+  /* position: relative; */
+  margin-top: 35px;
+  display: flex;
+  margin-left: 60px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 720px;
+  row-gap: 30px;
+}
+.icon {
+  height: 15px;
+}
+.sub-headlines {
+  position: absolute;
+  margin-left: 420px;
+  font-size: 20px;
+  margin-top: 100px;
+  font-family: "Poppins", serif;
+}
+
+.btn {
+  position: absolute;
+  margin-left: 420px;
+  margin-top: 180px;
+  padding: 15px 60px;
+  font-size: 15px;
+  background: black;
+  color: white;
+}
+
+.heading {
+  color: #f5f2f0;
+  position: absolute;
+  font-family: "Merriweather", serif;
+  font-size: 90px;
+  margin-top: -10px;
+  line-height: 93px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.heading span {
+  margin-left: 110px;
+  color: black;
+  font-family: "Merriweather", serif;
+}
+
+.end-section {
+  position: relative;
+  display: flex;
+  margin-top: 90px;
+}
+
+.quote-text {
+  font-size: 15px;
+  margin-top: -px;
+  position: absolute;
+  width: 100%;
+  height: 10vh;
+}
+
+.dancing-girl {
+  height: 250px;
+  margin-top: 10px;
+  z-index: -1;
+}
+
+.one {
+  margin-left: 300px;
+  margin-top: -px;
+}
+
+.photo-list {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.list-item1 {
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.girl {
+  height: 100vh;
+  z-index: -1;
+}
+
+.logo {
+  position: absolute;
+  margin-top: 40px;
+  background: transparent;
+  height: 30px;
+  margin-left: 50px;
+}
+
+.quote-comma {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  margin-top: 10px;
+  background: #f5f2f0;
+  margin-top: 0px;
+  width: 10%;
+  height: 10%;
+}
+
+.quote {
+  background: #f5f2f0;
+}
